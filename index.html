@@ -249,7 +249,7 @@
                                        <div class="elementor-counter">
                                           <div class="elementor-counter-number-wrapper">
                                              <span class="elementor-counter-number-prefix"></span>
-                                             <span class="elementor-counter-number" data-duration="3000" data-to-value="532" data-from-value="102" data-delimiter=",">102</span>
+                                             <span class="elementor-counter-number" data-duration="5000" data-to-value="1" data-from-value="83" data-delimiter=",">83</span>
                                              <span class="elementor-counter-number-suffix"></span>
                                           </div>
                                           <div class="elementor-counter-title">Pessoas respondendo neste momento</div>
@@ -292,7 +292,7 @@
                                               var urlparams = new URL(url_string);
                                               var src = urlparams.searchParams.get("src"); 
                                               var buttons = $('.link-pv');
-                                              var url = linkCheckout + '?src=teu3-' + src;
+                                              var url = linkCheckout + '?src=quiz' + src;
                                               $(buttons).attr('href', url);
                                           });
                                        </script>		
@@ -347,7 +347,7 @@
              var url_string = window.location.href;
              var urlparams = new URL(url_string);
              var src = urlparams.searchParams.get("src");
-             var url = page + '?src=quiz-backredirect-' + src;
+             var url = page + '?src=quiz' + src;
              (function(b) {
              var a = {
                  version: "0.0.1",
